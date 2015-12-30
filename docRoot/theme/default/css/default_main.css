@@ -1,0 +1,337 @@
+/* 
+    Document   : main.css
+    Created on : Apr 15, 2012, 12:59:13 AM
+    Author     : eric
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+html, body {
+  height: 100%;
+  width: 100%;
+} 
+
+body {
+  margin: 0;
+  padding: 0;
+  color: #666666;
+  font-family: Helvetica,Arial,sans-serif;
+  font-size: 12px;
+  border: 0 none;
+  LINE-HEIGHT:150%;
+}
+
+a, a:link {
+  color: #3366cc;
+  text-decoration: none;
+  line-height: normal;
+}
+a:hover {
+  color: #E0303A;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+hr {
+  height: 1px;
+  border: none;
+  border-bottom: #dcdddd 1px solid;
+}
+
+h1, h2
+{
+  font-size: 1.5em;
+}
+
+h3
+{
+  font-size: 1.2em;
+}
+
+h4
+{
+  font-size: 1.1em;
+}
+
+iframe {
+    width:100%;
+    height:100%;
+}
+
+#body {
+  height: 100%;
+  width: 100%;
+  text-align:  center;
+}
+
+#header {
+  height: 50px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  right:0px;
+  min-width:980px;
+}
+
+#main {
+  position:absolute;
+  top:65px;
+  width:100%;
+  border-top: 3px #888888 groove;
+}
+.main {    
+    width:100%;
+    height:100%;
+}
+
+.footer {
+  height: 28px;
+}
+
+.logo {
+  padding: 5px
+}
+
+#menu_container {
+ overflow:  auto; 
+ display:block;
+ height: auto;
+}
+
+#menu_window {
+  position: absolute;
+  top: 28px;
+  left: 150px;
+  right: 75px;
+  height: 22px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+#more_menu {
+  position: absolute;
+  top: 28px;
+  right: 10px;
+  display: none;
+  cursor: pointer;
+  color: #3366cc; 
+}
+.menu_item {
+  float: left;
+  margin: 1px;
+  padding-left: 2px;
+  padding-right: 2px;
+  border: 1px #cccccc solid;
+}
+
+#nav {
+  text-align: left;
+  padding: 10px; 
+  padding-bottom: 0px;
+}
+
+.left_top_ad {
+  
+}
+
+#content {
+  width: 100%;
+  text-align: center;
+}
+
+#content_file_hz {
+  width: 1000px;
+  padding-top: 20px;
+  margin: 0 auto;
+}
+
+.block_title {
+  background-color: #666666;
+  color: #FFFFFF;
+  font-size: 14px;
+  padding: 5px
+}
+
+.file_list, .folder_list {
+  margin-top: 10px;
+  overflow:  hidden;
+}
+
+.picture_list {
+  padding-top: 30px;
+}
+
+.cover_160, .picture_160 {
+  width:173px;
+  float:left;
+  margin-left:30px;
+  display:inline;
+}
+
+.cover_160  a img , .picture_160 a img {
+  border:1px solid #666;
+  padding:2px;
+}
+
+.cover_160 {
+  background: url("/images/bg_cover.png") no-repeat;
+}
+
+.picture_name, .picture_desc {
+  width:160px;
+  white-space:nowrap;
+  text-overflow:ellipsis; 
+  overflow: hidden;
+  float: left;
+}
+
+.picture_name {
+  padding-bottom: 10px;
+  width: 100%
+}
+
+.picture_desc {
+  padding-top: 10px;
+}
+
+.picture_name a {
+  color: #666666;
+}
+
+.picture_1000 {
+  overflow: hidden;  
+}
+
+#picture_prev {
+  position: absolute;
+  top: 40px;
+  cursor: url("/images/bg11.cur"), pointer;
+}
+
+#picture_next {
+  position: absolute;
+  left: 50%;
+  top: 40px;
+  cursor: url("/images/bg12.cur"), pointer;
+}
+
+#p_btn_p {
+  display: block;
+  width: 100%;
+  height: 100%;
+  cursor: url("/images/bg11.cur"), pointer;
+}
+
+#p_btn_n {
+  display: block;
+  width: 100%;
+  height: 100%;
+  cursor: url("/images/bg12.cur"), pointer;
+}
+
+.list_others_container {
+  height: 200px;
+  width: 1000px;
+  padding-top: 10px;
+}
+
+#list_others {
+  width: 600px;
+  overflow-y: no-display;
+  overflow-x: scroll;
+  height: 106px;
+  border: 1px #888888 solid;
+  padding: 1px;
+  margin: 1px;
+}
+
+#others_table {
+  padding-top: 0px; 
+  height: 90px;
+}
+.picture_120 {
+  float: left;
+  padding-left: 1px;
+  padding-right: 1px;
+  display:inline;
+  cursor: pointer;
+  height: 90px;
+  overflow: hidden;
+}
+
+.current_pic {
+  width: 114px;
+  height: 84px;
+  border: 3px #E0303A solid;
+}
+
+#pager, #pager a {
+  font-weight: bold; 
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.page-curr, .page-curr a:link {
+  border: 1px #ff7870 solid;
+}
+
+#load_prev {
+  padding-top: 10px;
+  padding-right: 3px;
+  padding-left: 20px;
+}
+#load_prev a {
+  display: block;
+  width: 20px;
+  height: 65px;
+  outline-style: none;
+  background-image: url("/images/prev_next.png");
+}
+#load_prev a:hover {
+  background-position: -21px 0px;
+}
+
+#load_next {
+  padding-top: 10px;
+  padding-left: 3px;
+  padding-right: 20px;
+}
+#load_next a {
+  display: block;
+  width: 20px;
+  height: 65px;
+  outline-style: none;
+  background-image: url("/images/prev_next.png");
+  background-position: -42px 0px;
+}
+#load_next a:hover {
+  background-position: -63px 0px;
+}
+
+#prev_folder {
+  margin-left: 35px;
+  width: 125px;
+  height: 98px;
+  padding-top: 2px;
+  padding-left: 5px;
+  background: url("/images/cover_bg_120.png") no-repeat;
+  background-position: 0px 0px;
+}
+
+#next_folder {
+  width: 130px;
+  height: 98px;
+  padding-top: 2px;
+  padding-left: 1px;
+  background: url("/images/cover_bg_120.png") no-repeat;
+  background-position: -260px 0px;
+}
+#next_folder span a, #prev_folder span a {
+  line-height: 28px;
+}

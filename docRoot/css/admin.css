@@ -1,0 +1,59 @@
+/* 
+    Document   : admin
+    Created on : Apr 18, 2012, 11:16:36 PM
+    Author     : eric
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+#admin_header_title {
+  font-size: 20px;
+  font-weight: bolder;
+  padding: 8px;
+}
+
+.admin_left {            
+  width: 100px;
+  /*border-right: 5px #999999 dotted;*/
+  position:absolute;
+  top:50px;
+  left:0px;
+  bottom:28px;
+  /*border-left:10px solid #468ab4;*/
+  overflow:auto;
+}
+
+.admin_right {
+  position:absolute;
+  top:50px;
+  left:110px;
+  right:0px;
+  bottom:28px;
+  /*border-right:10px solid #468ab4;
+  min-width:760px;*/
+}
+
+.admin_menu_group {
+  padding: 5px;
+}
+
+.block_title {
+  font-size: 15px;
+  font-weight: bold;
+  text-align: right;
+  padding-top: 5px;
+}
+
+.admin_menu_item {
+  text-align: right;
+}
+
+#v_border {
+  background-color: #468ab4;
+  width:5px;
+  position:absolute;
+  top:50px;
+  left:100px;
+  bottom:28px;    
+}
+

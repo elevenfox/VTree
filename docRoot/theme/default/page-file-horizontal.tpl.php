@@ -1,0 +1,1 @@
+<?php include "page-file.tpl.php";?>

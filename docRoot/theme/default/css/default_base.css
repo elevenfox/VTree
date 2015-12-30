@@ -1,0 +1,10 @@
+.clear { clear: both; }
+.bold{font-weight: bold;}
+.left{text-align: left;}
+.error{color: Red;}
+.succeed{color: Green;}
+.center{text-align: center;}
+.fleft{float:left;}
+.fright{float:right;}
+.left15{margin-left: 15px;}
+.radius{border-radius: 5px;}
